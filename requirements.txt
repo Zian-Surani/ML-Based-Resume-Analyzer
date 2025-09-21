@@ -11,7 +11,7 @@ plotly
 python-multipart
 python-dotenv
 joblib
-google-generative-ai
+google-genai==0.16.0
 requests
 reportlab
 kaleido
