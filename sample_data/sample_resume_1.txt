@@ -1,0 +1,4 @@
+Zian Surani
+Data Science Intern
+Experience: Worked with pandas and SQL to build ETL flows. Used PySpark for distributed processing. 2 years experience.
+Skills: pandas, sql, pyspark

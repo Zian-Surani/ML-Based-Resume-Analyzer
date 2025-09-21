@@ -1,0 +1,4 @@
+Job Title: Data Analyst
+Must have: SQL, pandas, data analysis.
+Nice to have: PySpark, AWS S3.
+Responsibilities: Build ETL pipelines and analyze sales data. Required 2 years experience.
