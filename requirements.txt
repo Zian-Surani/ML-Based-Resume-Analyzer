@@ -1,18 +1,25 @@
-streamlit
-sentence-transformers
-scikit-learn
-numpy
-pandas
-pdfplumber
-python-docx
-rapidfuzz
-faiss-cpu
-plotly
-python-multipart
-python-dotenv
-joblib
-google-genai==0.16.0
-requests
-reportlab
-kaleido
-streamlit-lottie
+# UI & streamlit
+streamlit==1.49.1
+plotly==6.3.0
+
+# ML / embeddings (optional; heavy)
+sentence-transformers==2.2.2
+
+# PDF and parsing
+pdfplumber==0.11.7
+python-docx==1.2.0
+reportlab==4.0.0
+
+# utilities
+pandas==2.3.2
+numpy==2.3.3
+rapidfuzz==3.14.1
+python-dotenv==1.1.1
+
+# Optional semantic DB (only if you really need it)
+# faiss-cpu==1.12.0
+
+# Optional: google Gen AI SDK (choose ONE; uncomment if you need LLMs)
+# google-genai==0.16.0
+# OR (legacy)
+# google-generativeai==0.8.5
