@@ -19,7 +19,7 @@ python-dotenv==1.1.1
 # Optional semantic DB (only if you really need it)
 # faiss-cpu==1.12.0
 
-# Optional: google Gen AI SDK (choose ONE; uncomment if you need LLMs)
-# google-genai==0.16.0
+google Gen AI SDK (choose ONE; uncomment if you need LLMs)
+google-genai==0.16.0
 # OR (legacy)
 # google-generativeai==0.8.5
