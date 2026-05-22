@@ -195,8 +195,9 @@ def _call_gemini(prompt: str) -> str:
     if not (GEMINI_API_KEY and genai):
         return None
     try:
-        response = genai.generate_text(model=GEMINI_MODEL, prompt=prompt, temperature=0.2, max_output_tokens=700)
-        return getattr(response,"text",str(response))
+        model = genai.GenerativeModel(GEMINI_MODEL)
+        response = model.generate_content(prompt)
+        return response.text
     except Exception as e:
         logger.exception("Gemini call failed: %s",e)
         return None
